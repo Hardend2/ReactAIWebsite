@@ -43,69 +43,70 @@ A realistic refactor plan for migrating the legacy site to a modern React applic
 ## 3. Phases
 
 ### Phase 1: Foundation and setup
-- [ ] Create the React project (Vite recommended)
-- [ ] Set up the Git workflow (branches, commit conventions)
-- [ ] Configure oxlint and Prettier
-- [ ] Define the folder structure (`components/`, `pages/`, `content/`, `styles/`, `assets/`)
-- [ ] Add a README with setup and run instructions
+- [x] Create the React project (Vite recommended)
+- [ ] Set up the Git workflow (branches, commit conventions) (partly: branch rule is in AGENTS.md; no commit conventions yet)
+- [ ] Configure oxlint and Prettier (partly: oxlint done; Prettier not installed)
+- [ ] Define the folder structure (`components/`, `pages/`, `content/`, `styles/`, `assets/`) (partly: all in place except `styles/`; styles are in `src/index.css`)
+- [x] Add a README with setup and run instructions
 - [ ] Set up CI (lint + build on every push)
 
-**Status:** Not started
+**Status:** In progress
 
 ### Phase 2: Design system and accessibility baseline
 Accessibility is a core requirement for a site about neurodiversity.
 
-- [ ] Define design tokens (colours, spacing, typography) with sufficient contrast (WCAG AA minimum)
-- [ ] Choose readable, dyslexia-friendly typography and comfortable line length/spacing
-- [ ] Build base components: `Button`, `Card`, `Section`, `Layout`, `Navigation`, `Footer`
-- [ ] Support keyboard navigation and visible focus states
-- [ ] Respect `prefers-reduced-motion` and avoid auto-playing animations
-- [ ] Provide a calm, low-clutter layout (clear hierarchy, whitespace)
+- [x] Define design tokens (colours, spacing, typography) with sufficient contrast (WCAG AA minimum)
+- [ ] Choose readable, dyslexia-friendly typography and comfortable line length/spacing (partly: system fonts and 68ch line length; not checked for dyslexia-friendliness)
+- [ ] Build base components: `Button`, `Card`, `Section`, `Layout`, `Navigation`, `Footer` (partly: `Layout` only; navigation and footer are inside it, cards and sections are CSS classes)
+- [x] Support keyboard navigation and visible focus states
+- [x] Respect `prefers-reduced-motion` and avoid auto-playing animations
+- [x] Provide a calm, low-clutter layout (clear hierarchy, whitespace)
 - [ ] Consider optional user settings (dark mode, font size, reduced motion toggle)
 
-**Status:** Not started
+**Status:** In progress
 
 ### Phase 3: Content migration and structure
-- [ ] Move content out of components into structured files (`content/*.json` or Markdown)
-- [ ] Rewrite and structure the content around three main themes:
-  - [ ] **Advantages**: strengths such as pattern recognition, creativity, hyperfocus, attention to detail
-  - [ ] **Disadvantages / challenges**: e.g. standard interview formats, sensory overload, unclear job descriptions, stigma
-  - [ ] **Tips**: for job seekers (preparing, disclosing, asking for adjustments) and for employers (inclusive hiring)
-- [ ] Review wording: avoid stereotypes and generalisations; make clear that experiences differ per person
-- [ ] Add reliable sources and references for factual claims
-- [ ] Use plain language and short paragraphs
+- [x] Move content out of components into structured files (`content/*.json` or Markdown)
+- [x] Rewrite and structure the content around three main themes:
+  - [x] **Advantages**: strengths such as pattern recognition, creativity, hyperfocus, attention to detail
+  - [x] **Disadvantages / challenges**: e.g. standard interview formats, sensory overload, unclear job descriptions, stigma
+  - [x] **Tips**: for job seekers (preparing, disclosing, asking for adjustments) and for employers (inclusive hiring)
+- [ ] Review wording: avoid stereotypes and generalisations; make clear that experiences differ per person (partly: drafted carefully, but not reviewed yet)
+- [x] Add reliable sources and references for factual claims (some are press releases or personal advice; labelled on the Bronnen page)
+- [x] Use plain language and short paragraphs
 
-**Status:** Not started
+**Status:** In progress (wording review open)
 
 ### Phase 4: Pages and features
-- [ ] Home page (purpose of the site, quick navigation)
-- [ ] "Advantages" page
-- [ ] "Challenges" page
-- [ ] "Tips for job seekers" page
-- [ ] "Tips for employers" page
-- [ ] Resources / links page
-- [ ] About / contact page
-- [ ] Set up routing (React Router) with a proper 404 page
-- [ ] Add page titles and meta descriptions (SEO)
+- [x] Home page (purpose of the site, quick navigation)
+- [x] "Advantages" page
+- [x] "Challenges" page
+- [x] "Tips for job seekers" page
+- [x] "Tips for employers" page
+- [x] Resources / links page
+- [x] About / contact page (about is on the Bronnen page; the contact form does not send anything yet)
+- [x] Set up routing (React Router) with a proper 404 page
+- [x] Add page titles and meta descriptions (SEO)
 
-**Status:** Not started
+**Status:** Done
 
 ### Phase 5: Quality, testing and performance
-- [ ] Unit tests for key components (Vitest + React Testing Library)
-- [ ] Automated accessibility checks (axe-core)
-- [ ] Manual test with a screen reader and keyboard only
-- [ ] Test on mobile and on multiple browsers
-- [ ] Optimise images (modern formats, lazy loading, alt text)
+- [x] Unit tests for key components (Vitest + React Testing Library)
+- [x] End-to-end tests with Playwright: navigation (including the mobile menu), form validation and honeypot, WCAG scan
+- [x] Automated accessibility checks (axe-core) (axe-core in Vitest, @axe-core/playwright in the e2e suite)
+- [ ] Manual test with a screen reader and keyboard only (partly: keyboard covered by automated tests only)
+- [ ] Test on mobile and on multiple browsers (partly: phone width tested in Chromium only)
+- [ ] Optimise images (modern formats, lazy loading, alt text) (not applicable yet: the site shows no images; unused template images remain)
 - [ ] Reach a Lighthouse score of 90+ for Accessibility, Performance and Best Practices
 - [ ] Gather feedback from at least a few people (ideally neurodivergent users) and process it
 
-**Status:** Not started
+**Status:** In progress
 
 ### Phase 6: Launch and future improvements
 - [ ] Deploy to Netlify
 - [ ] Set up a custom domain and HTTPS (if applicable)
 - [ ] Redirect old legacy URLs to the new pages
-- [ ] Add a privacy statement (and cookie notice if analytics is used)
+- [ ] Add a privacy statement (and cookie notice if analytics is used) (partly: only a short line on the Bronnen page)
 - [ ] Do a final comparison against the legacy audit results (before/after)
 - [ ] Backlog ideas:
   - [ ] Multi-language support (e.g. NL/EN)
@@ -144,3 +145,6 @@ A task is done when:
 | Date | Update |
 |------|--------|
 | 2026-10-30 | Roadmap created |
+| 2026-11-02 | Website with Dutch content, sources and unit tests merged to `main` |
+| 2026-11-02 | Docs aligned with pnpm, oxlint, TypeScript, axe-core and Netlify |
+| 2026-11-02 | Mobile menu, contact page and Playwright e2e suite merged to `main` |

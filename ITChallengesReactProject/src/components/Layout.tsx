@@ -1,4 +1,5 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import type { KeyboardEvent } from 'react'
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 
 const navItems = [
@@ -8,12 +9,15 @@ const navItems = [
   { to: '/tips-werkzoekenden', label: 'Tips voor werkzoekenden' },
   { to: '/tips-werkgevers', label: 'Tips voor werkgevers' },
   { to: '/bronnen', label: 'Bronnen' },
+  { to: '/contact', label: 'Contact' },
 ]
 
 function Layout() {
   const { pathname } = useLocation()
   const mainRef = useRef<HTMLElement>(null)
   const lastPathname = useRef(pathname)
+  const menuToggleRef = useRef<HTMLButtonElement>(null)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   // Move focus to the new page so keyboard and screen reader users start at its content.
   useEffect(() => {
@@ -23,21 +27,43 @@ function Layout() {
     mainRef.current?.focus({ preventScroll: true })
   }, [pathname])
 
+  function handleHeaderKeyDown(event: KeyboardEvent) {
+    if (event.key === 'Escape' && menuOpen) {
+      setMenuOpen(false)
+      menuToggleRef.current?.focus()
+    }
+  }
+
   return (
     <>
       <a className="skip-link" href="#inhoud">
         Ga naar de inhoud
       </a>
-      <header className="site-header">
+      <header className="site-header" onKeyDown={handleHeaderKeyDown}>
         <div className="container site-header-inner">
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" onClick={() => setMenuOpen(false)}>
             NeuroWerk
           </Link>
+          <button
+            ref={menuToggleRef}
+            type="button"
+            className="menu-toggle"
+            aria-expanded={menuOpen}
+            aria-controls="hoofdmenu"
+            onClick={() => setMenuOpen((open) => !open)}
+          >
+            Menu
+          </button>
           <nav aria-label="Hoofdmenu">
-            <ul className="nav-list">
+            <ul id="hoofdmenu" className={menuOpen ? 'nav-list is-open' : 'nav-list'}>
               {navItems.map((item) => (
                 <li key={item.to}>
-                  <NavLink to={item.to} end={item.to === '/'} className="nav-link">
+                  <NavLink
+                    to={item.to}
+                    end={item.to === '/'}
+                    className="nav-link"
+                    onClick={() => setMenuOpen(false)}
+                  >
                     {item.label}
                   </NavLink>
                 </li>

@@ -19,6 +19,7 @@ const routes = [
   { path: '/tips-werkzoekenden', heading: 'Tips voor werkzoekenden' },
   { path: '/tips-werkgevers', heading: 'Tips voor werkgevers' },
   { path: '/bronnen', heading: 'Bronnen en over deze site' },
+  { path: '/contact', heading: 'Contact' },
   { path: '/bestaat-niet', heading: 'Pagina niet gevonden' },
 ]
 

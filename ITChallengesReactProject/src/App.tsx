@@ -6,6 +6,7 @@ import tipsWerkzoekenden from './content/tipsWerkzoekenden.json'
 import uitdagingen from './content/uitdagingen.json'
 import voordelen from './content/voordelen.json'
 import BronnenPage from './pages/BronnenPage.tsx'
+import ContactPage from './pages/ContactPage.tsx'
 import HomePage from './pages/HomePage.tsx'
 import NotFoundPage from './pages/NotFoundPage.tsx'
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="tips-werkzoekenden" element={<ContentPage page={tipsWerkzoekenden} />} />
         <Route path="tips-werkgevers" element={<ContentPage page={tipsWerkgevers} />} />
         <Route path="bronnen" element={<BronnenPage />} />
+        <Route path="contact" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>

@@ -39,6 +39,7 @@ pnpm build      # productiebuild
 pnpm preview    # productiebuild lokaal bekijken
 pnpm lint       # oxlint
 pnpm test       # Vitest
+pnpm test:e2e   # Playwright (installeert de testbrowser indien nodig)
 ```
 
 ## 5. Technologieën

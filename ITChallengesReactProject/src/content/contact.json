@@ -1,0 +1,26 @@
+{
+  "metaTitle": "Contact | NeuroWerk",
+  "metaDescription": "Stel een vraag of geef een opmerking over NeuroWerk.",
+  "heading": "Contact",
+  "intro": "Heb je een vraag of klopt er iets niet op deze site? Laat het ons weten.",
+  "note": {
+    "title": "Dit is een testversie",
+    "text": "Dit formulier controleert wat je invult, maar verstuurt nog niets. We ontvangen je bericht dus niet en bewaren niets."
+  },
+  "labels": {
+    "name": "Naam",
+    "email": "E-mailadres",
+    "message": "Bericht",
+    "trap": "Laat dit veld leeg",
+    "submit": "Controleer en verstuur"
+  },
+  "errors": {
+    "name": "Vul je naam in.",
+    "email": "Vul een geldig e-mailadres in, bijvoorbeeld naam@voorbeeld.be.",
+    "message": "Schrijf een bericht van minstens 10 tekens."
+  },
+  "status": {
+    "accepted": "Alles is goed ingevuld. Omdat dit een testversie is, is je bericht niet verstuurd.",
+    "filtered": "Bedankt."
+  }
+}
