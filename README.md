@@ -42,7 +42,7 @@ pnpm test       # Vitest
 ```
 
 ## 5. Technologieën
-React, Vite, React Router, CSS (design tokens), oxlint, Prettier,
+React, TypeScript, Vite, pnpm, React Router, CSS (design tokens), oxlint, Prettier,
 Vitest, React Testing Library, axe. Hosting: Netlify.
 
 ## 6. Projectstructuur

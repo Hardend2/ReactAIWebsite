@@ -53,12 +53,13 @@ Instructions for any AI agent working on this project. Read this file fully befo
 ## Tech stack
 - **Framework:** React (functional components and hooks)
 - **Build tool:** Vite
+- **Package manager:** pnpm
 - **Routing:** React Router
-- **Language:** JavaScript (or TypeScript if the project owner chooses it)
+- **Language:** TypeScript
 - **Styling:** plain CSS / CSS Modules with design tokens (CSS variables); no heavy UI frameworks unless agreed
-- **Linting/formatting:** ESLint + Prettier
+- **Linting/formatting:** oxlint + Prettier
 - **Testing:** Vitest + React Testing Library, plus accessibility checks (axe)
-- **Deployment:** static hosting (Netlify, Vercel or GitHub Pages)
+- **Deployment:** static hosting (Netlify)
 - Do not add new dependencies without explaining why they are needed.
 
 ## Security
@@ -66,7 +67,7 @@ Instructions for any AI agent working on this project. Read this file fully befo
   - Never use `dangerouslySetInnerHTML` with unsanitised content
   - Validate and sanitise any user input (if inputs are ever added)
   - Open external links with `rel="noopener noreferrer"`
-  - Keep dependencies up to date and run `npm audit` regularly
+  - Keep dependencies up to date and run `pnpm audit` regularly
   - No secrets, API keys or tokens in the code or repository (use environment variables)
   - Serve over HTTPS and prefer security headers (e.g. Content-Security-Policy) via the host
   - Only load third-party scripts when really necessary

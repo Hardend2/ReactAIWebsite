@@ -45,7 +45,7 @@ A realistic refactor plan for migrating the legacy site to a modern React applic
 ### Phase 1: Foundation and setup
 - [ ] Create the React project (Vite recommended)
 - [ ] Set up the Git workflow (branches, commit conventions)
-- [ ] Configure ESLint and Prettier
+- [ ] Configure oxlint and Prettier
 - [ ] Define the folder structure (`components/`, `pages/`, `content/`, `styles/`, `assets/`)
 - [ ] Add a README with setup and run instructions
 - [ ] Set up CI (lint + build on every push)
@@ -92,7 +92,7 @@ Accessibility is a core requirement for a site about neurodiversity.
 
 ### Phase 5: Quality, testing and performance
 - [ ] Unit tests for key components (Vitest + React Testing Library)
-- [ ] Automated accessibility checks (jest-axe or similar)
+- [ ] Automated accessibility checks (axe-core)
 - [ ] Manual test with a screen reader and keyboard only
 - [ ] Test on mobile and on multiple browsers
 - [ ] Optimise images (modern formats, lazy loading, alt text)
@@ -102,7 +102,7 @@ Accessibility is a core requirement for a site about neurodiversity.
 **Status:** Not started
 
 ### Phase 6: Launch and future improvements
-- [ ] Deploy (Netlify, Vercel or GitHub Pages)
+- [ ] Deploy to Netlify
 - [ ] Set up a custom domain and HTTPS (if applicable)
 - [ ] Redirect old legacy URLs to the new pages
 - [ ] Add a privacy statement (and cookie notice if analytics is used)
