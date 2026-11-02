@@ -1,0 +1,103 @@
+{
+  "metaTitle": "Tips voor werkgevers | NeuroWerk",
+  "metaDescription": "Hoe je inclusiever aanwerft, redelijke aanpassingen aanpakt en welke steun er in Vlaanderen bestaat.",
+  "heading": "Tips voor werkgevers",
+  "intro": "Kleine aanpassingen kunnen helpen, voor neurodivergente kandidaten en vaak ook voor anderen.",
+  "note": {
+    "title": "Goed om te weten",
+    "text": "Er zijn nog maar weinig studies die meten hoe goed aanpassingen op het werk werken. Vraag dus vooral wat iemand nodig heeft en stuur bij.",
+    "sources": ["doyle2020"]
+  },
+  "sections": [
+    {
+      "heading": "Inclusief aanwerven",
+      "items": [
+        {
+          "title": "Schrijf duidelijke vacatures",
+          "text": "Wees concreet, houd het profiel realistisch en leg uit hoe de procedure verloopt. Laat ook andere manieren van solliciteren toe.",
+          "sources": ["gent2024"]
+        },
+        {
+          "title": "Vraag naar noden",
+          "text": "Nodig kandidaten in de vacature uit om te melden wat ze nodig hebben voor het gesprek.",
+          "sources": ["eu-aanpassingen"]
+        },
+        {
+          "title": "Pas het gesprek aan",
+          "text": "Wees flexibel met dag en uur, deel algemene vragen en onderwerpen vooraf en laat kandidaten hun vaardigheden tonen op een manier die niet draait om sociaal optreden. Veel niet-autistische deelnemers wilden dit ook, dus je kunt het voor iedereen doen.",
+          "sources": ["ezerins2025"]
+        },
+        {
+          "title": "Houd je vragen relevant",
+          "text": "Focus op competenties en op vragen die met de functie te maken hebben. Vermijd vragen over iemands privéleven die daar niets mee te maken hebben.",
+          "sources": ["unia-werk"]
+        },
+        {
+          "title": "Train wie aanwerft",
+          "text": "In een Amerikaans onderzoek met oefengesprekken werkten training en het delen van een autismediagnose samen. Het effect duurde minstens twee maanden. De beoordelaars waren geen recruiters.",
+          "sources": ["whelpley2025"]
+        }
+      ]
+    },
+    {
+      "heading": "Op de werkvloer",
+      "items": [
+        {
+          "title": "Vraag in plaats van te veronderstellen",
+          "text": "Vul niet in wat iemand nodig heeft. Vraag welke communicatie werkt en check of je elkaar goed begrijpt.",
+          "sources": ["gent2024"]
+        },
+        {
+          "title": "Maak afspraken zichtbaar",
+          "text": "Zet doelen, rollen en taken op papier en deel agenda's vooraf.",
+          "sources": ["gent2024"]
+        },
+        {
+          "title": "Bied aanpassingen aan",
+          "text": "Denk aan minder prikkels, flexibele uren, thuiswerk, duidelijke instructies of hulpsoftware. Stad Gent wijst erop dat je geen diagnose nodig hebt om dit te bespreken.",
+          "sources": ["gent2024", "doyle2020", "eu-aanpassingen"]
+        },
+        {
+          "title": "Zorg voor een veilig klimaat",
+          "text": "Laat mensen hun mening, feedback en fouten delen zonder angst. Wekelijkse check-ins kunnen helpen om problemen vroeg te zien.",
+          "sources": ["gent2024"]
+        },
+        {
+          "title": "Ga vertrouwelijk om met wat je hoort",
+          "text": "Behandel wat iemand vertelt als vertrouwelijk, en maak duidelijk wie de vertrouwenspersonen zijn.",
+          "sources": ["nd-autisme", "gent2024"]
+        }
+      ]
+    },
+    {
+      "heading": "Kosten en steun in Vlaanderen",
+      "items": [
+        {
+          "title": "Wat kost het?",
+          "text": "De EU-richtsnoeren halen een Amerikaanse studie aan: ongeveer 60% van de aanpassingen kost niets. Dat is geen Belgisch cijfer.",
+          "sources": ["eu-aanpassingen"]
+        },
+        {
+          "title": "Gespecialiseerde jobcoach",
+          "text": "Heeft een medewerker het moeilijk door een ziekte of beperking? Dan kun je via VDAB gratis een jobcoach inschakelen.",
+          "sources": ["vlaanderen"]
+        },
+        {
+          "title": "Terugbetaling van aanpassingen",
+          "text": "Pas je een werkplek aan wegens een beperking of gezondheidsprobleem? VDAB betaalt de kosten onder bepaalde voorwaarden terug. Vraag die na bij VDAB Werkgevers.",
+          "sources": ["vlaanderen"]
+        },
+        {
+          "title": "Individueel maatwerk",
+          "text": "Deze Vlaamse maatregel helpt mensen met een beperking om met de juiste steun op de gewone arbeidsmarkt te werken.",
+          "sources": ["vlaanderen"]
+        },
+        {
+          "title": "Juridische vragen",
+          "text": "Unia geeft werkgevers juridisch advies, bijvoorbeeld over aanwerving.",
+          "sources": ["unia-werk"]
+        }
+      ]
+    }
+  ]
+}

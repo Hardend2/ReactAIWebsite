@@ -1,0 +1,95 @@
+{
+  "metaTitle": "Tips voor werkzoekenden | NeuroWerk",
+  "metaDescription": "Praktische tips om je voor te bereiden op een sollicitatie, te beslissen wat je vertelt en aanpassingen te vragen.",
+  "heading": "Tips voor werkzoekenden",
+  "intro": "Kies wat bij jou past. Je hoeft niet alles te doen.",
+  "note": {
+    "title": "Geen vaste regels",
+    "text": "Deze tips zijn algemene info en geen juridisch of medisch advies. Enkele tips komen uit Nederland of de Verenigde Staten. Regels en gewoontes kunnen in België anders zijn.",
+    "sources": []
+  },
+  "sections": [
+    {
+      "heading": "Je voorbereiden",
+      "items": [
+        {
+          "title": "Vraag hoe het gesprek zal verlopen",
+          "text": "Vraag waar het is, met wie je praat en hoe het verloopt. Zo heb je minder stress op de dag zelf.",
+          "sources": ["uwv2025"]
+        },
+        {
+          "title": "Vraag de vragen vooraf",
+          "text": "Vraag welke onderwerpen of voorbeeldvragen aan bod komen. Zeg gewoon dat je je goed wilt voorbereiden.",
+          "sources": ["uwv2025", "ezerins2025"]
+        },
+        {
+          "title": "Oefen je verhaal",
+          "text": "Oefen hoe je uitlegt hoe jij werkt. Schrijf eerst voor jezelf op wat je nodig hebt.",
+          "sources": ["uwv2025"]
+        },
+        {
+          "title": "Let op signalen",
+          "text": "Duidelijke mails over de procedure zijn een goed teken. Een negatieve reactie op je vragen kan erop wijzen dat de job minder goed bij je past.",
+          "sources": ["uwv2025"]
+        }
+      ]
+    },
+    {
+      "heading": "Beslissen wat je vertelt",
+      "items": [
+        {
+          "title": "Begin bij wat je nodig hebt",
+          "text": "Je kunt vertellen wat je nodig hebt om goed te werken, zonder met je diagnose te beginnen. Bijvoorbeeld: \"Als jullie het beste uit mij willen halen, dan...\"",
+          "sources": ["uwv2025"]
+        },
+        {
+          "title": "Wat onderzoek zegt",
+          "text": "In een Amerikaans onderzoek met oefengesprekken hielp vertellen over autisme alleen als de beoordelaars een training over neurodiversiteit hadden gekregen. De beoordelaars waren geen recruiters, dus het zegt niet alles over de praktijk.",
+          "sources": ["whelpley2025"]
+        },
+        {
+          "title": "Jij kiest",
+          "text": "We vonden geen antwoord dat voor iedereen klopt. Weeg zelf af wat voor jou en deze werkgever goed voelt. Je kunt er ook over praten met iemand die je vertrouwt.",
+          "sources": ["doyle2020"]
+        }
+      ]
+    },
+    {
+      "heading": "Aanpassingen vragen",
+      "intro": "Een redelijke aanpassing neemt een drempel weg voor iemand met een handicap. Werkgevers moeten die al tijdens de sollicitatie voorzien, tenzij het een onevenredige last is. Of dat in jouw situatie geldt, kun je navragen bij Unia.",
+      "sources": ["eu-aanpassingen", "nd-werk"],
+      "items": [
+        {
+          "title": "Tijdens de sollicitatie",
+          "list": ["De algemene vragen op voorhand krijgen", "Flexibiliteit in dag en uur", "Je vaardigheden op een andere manier tonen", "Een online gesprek"],
+          "sources": ["ezerins2025", "nd-autisme"]
+        },
+        {
+          "title": "Op het werk",
+          "list": ["Een stillere werkplek of koptelefoon", "Thuiswerk of flexibele uren", "Duidelijke instructies", "Hulpmiddelen zoals spraak-naar-tekst"],
+          "sources": ["doyle2020", "eu-aanpassingen"]
+        }
+      ]
+    },
+    {
+      "heading": "Hier kun je terecht",
+      "items": [
+        {
+          "title": "Unia",
+          "text": "Denk je dat je gediscrimineerd wordt? Je kunt dat melden bij Unia, online of gratis via 0800 12 800.",
+          "sources": ["unia-werk", "unia-melden"]
+        },
+        {
+          "title": "Neurodiversity Belgium",
+          "text": "Deze organisatie biedt info, lotgenotengroepen, activiteiten en een lijst met experts en diensten. De pagina's die we gebruikten, zijn in het Engels.",
+          "sources": ["nd-werk"]
+        },
+        {
+          "title": "VDAB",
+          "text": "Je werkgever kan via VDAB gratis een gespecialiseerde jobcoach inschakelen als je het moeilijk hebt door een ziekte of beperking. Die steunt jou, je team en je werkgever.",
+          "sources": ["vlaanderen"]
+        }
+      ]
+    }
+  ]
+}

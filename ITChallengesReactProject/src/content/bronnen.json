@@ -1,0 +1,101 @@
+[
+  {
+    "id": "doyle2020",
+    "short": "Doyle (2020)",
+    "title": "Neurodiversity at work: a biopsychosocial model and the impact on working adults",
+    "organisation": "British Medical Bulletin (Oxford University Press)",
+    "type": "Wetenschappelijk overzichtsartikel",
+    "url": "https://academic.oup.com/bmb/article/135/1/108/5912467",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "gent2024",
+    "short": "Stad Gent",
+    "title": "Neurodiversiteit: 7 tips voor op de werkvloer",
+    "organisation": "Stad Gent",
+    "type": "Overheid (Vlaanderen)",
+    "url": "https://stad.gent/nl/ondernemen/nieuws-evenementen/neurodiversiteit-7-tips-voor-op-de-werkvloer",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "vlaanderen",
+    "short": "Vlaamse overheid",
+    "title": "Andere steunmaatregelen (Mijn inclusieve werkvloer)",
+    "organisation": "Vlaamse overheid",
+    "type": "Overheid (Vlaanderen)",
+    "url": "https://www.vlaanderen.be/mijn-inclusieve-werkvloer/andere-steunmaatregelen",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "unia-werk",
+    "short": "Unia",
+    "title": "Diversiteit en inclusie in de werkomgeving",
+    "organisation": "Unia",
+    "type": "Overheidsinstelling (België)",
+    "url": "https://www.unia.be/nl/actiedomeinen/werk",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "unia-melden",
+    "short": "Unia: discriminatie melden",
+    "title": "Discriminatie melden",
+    "organisation": "Unia",
+    "type": "Overheidsinstelling (België)",
+    "url": "https://www.unia.be/nl/discriminatie-melden",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "eu-aanpassingen",
+    "short": "Europese Unie",
+    "title": "Redelijke aanpassingen op het werk: richtsnoeren en goede praktijken",
+    "organisation": "Europese Unie (op.europa.eu)",
+    "type": "Overheid (Europa)",
+    "url": "https://op.europa.eu/webpub/empl/reasonable-accommodation-at-work/nl/index.html",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "nd-werk",
+    "short": "Neurodiversity Belgium: werken",
+    "title": "Adults working in Belgium",
+    "organisation": "Neurodiversity Belgium",
+    "type": "Organisatie geleid door neurodivergente volwassenen (België)",
+    "url": "https://neurodiversity.be/adults-working-in-belgium/",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "nd-autisme",
+    "short": "Neurodiversity Belgium: autisme",
+    "title": "Autism in the workplace",
+    "organisation": "Neurodiversity Belgium",
+    "type": "Vooral ervaring en mening van de auteur, weinig onderzoek",
+    "url": "https://neurodiversity.be/autism-in-the-workplace/",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "uwv2025",
+    "short": "UWV (Nederland)",
+    "title": "Hoe solliciteren met neurodivergentie",
+    "organisation": "UWV (Nederland), advies van Saskia Schepers",
+    "type": "Persoonlijk advies van een expert, Nederlandse bron",
+    "url": "https://www.uwv.nl/nl/ervaringsverhalen/hoe-solliciteren-neurodivergentie",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "ezerins2025",
+    "short": "University of Arkansas (2025)",
+    "title": "Persbericht over Ezerins, Simon en Rosen: Autistic Applicants' Job Interview Experiences and Accommodation Preferences (Journal of Management)",
+    "organisation": "University of Arkansas, via EurekAlert!",
+    "type": "Persbericht over onderzoek (Verenigde Staten)",
+    "url": "https://www.eurekalert.org/news-releases/1076589",
+    "accessed": "2026-11-02"
+  },
+  {
+    "id": "whelpley2025",
+    "short": "Virginia Commonwealth University (2025)",
+    "title": "Persbericht over Whelpley e.a.: How Long Does it Last? (Journal of Autism and Developmental Disorders)",
+    "organisation": "Virginia Commonwealth University, via EurekAlert!",
+    "type": "Persbericht over onderzoek (Verenigde Staten)",
+    "url": "https://www.eurekalert.org/news-releases/1077000",
+    "accessed": "2026-11-02"
+  }
+]

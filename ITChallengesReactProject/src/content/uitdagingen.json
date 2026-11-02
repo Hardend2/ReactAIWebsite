@@ -1,0 +1,63 @@
+{
+  "metaTitle": "Uitdagingen | NeuroWerk",
+  "metaDescription": "Welke drempels neurodivergente mensen kunnen tegenkomen bij het solliciteren en op het werk.",
+  "heading": "Uitdagingen",
+  "intro": "Solliciteren en werken kan extra drempels meebrengen. Dit zijn de drempels die het vaakst genoemd worden.",
+  "note": {
+    "title": "Goed om te weten",
+    "text": "Er is nog weinig onderzoek naar hoe neurodivergente mensen in de praktijk functioneren op het werk. Wat je hier leest, hoeft niet voor jou te gelden.",
+    "sources": ["doyle2020"]
+  },
+  "sections": [
+    {
+      "heading": "Tijdens het solliciteren",
+      "items": [
+        {
+          "title": "Het klassieke gesprek",
+          "text": "In een Amerikaanse bevraging van 100 autistische en 100 niet-autistische mensen meldden autistische deelnemers meer angst bij sollicitatiegesprekken. Ze maakten zich ook zorgen over hoe werkgevers naar hun autistische trekken zouden kijken.",
+          "sources": ["ezerins2025"]
+        },
+        {
+          "title": "Verkeerd begrepen worden",
+          "text": "Oogcontact, gezichtsuitdrukking, toon en lichaamstaal kunnen verkeerd begrepen worden. Onder druk kan ook je werkgeheugen minder goed meewerken, waardoor je meer tijd nodig hebt om te antwoorden.",
+          "sources": ["nd-autisme"]
+        },
+        {
+          "title": "Vage vacatures en procedures",
+          "text": "Stad Gent raadt werkgevers aan om sollicitaties minder stresserend te maken met duidelijke vacatures, een realistisch profiel en een open procedure.",
+          "sources": ["gent2024"]
+        },
+        {
+          "title": "Twijfelen over wat je vertelt",
+          "text": "Veel mensen vertellen liever niet over hun diagnose, uit angst voor discriminatie.",
+          "sources": ["doyle2020"]
+        }
+      ]
+    },
+    {
+      "heading": "Op het werk",
+      "items": [
+        {
+          "title": "Te veel prikkels",
+          "text": "Prikkels kunnen te veel worden, vooral in open kantoren. Minder geluid en afleiding kan dan helpen.",
+          "sources": ["nd-autisme", "doyle2020"]
+        },
+        {
+          "title": "Plannen en organiseren",
+          "text": "Moeite met plannen, prioriteiten stellen, tijd beheren en je aandacht sturen is volgens Doyle het grootste struikelblok op het werk. Anderen kunnen dat verkeerd aanzien voor stress, angst of een gebrek aan motivatie.",
+          "sources": ["doyle2020"]
+        },
+        {
+          "title": "Je aanpassen en maskeren",
+          "text": "Je kunt druk voelen om je aan te passen aan sociale normen en je eigen trekken te verbergen. Ook een burn-out die weken kan duren, wordt genoemd.",
+          "sources": ["nd-autisme"]
+        },
+        {
+          "title": "Werk vinden en houden",
+          "text": "Onderzoek wijst op langdurige werkloosheid en op minder bereiken dan je eigenlijk kunt.",
+          "sources": ["doyle2020"]
+        }
+      ]
+    }
+  ]
+}

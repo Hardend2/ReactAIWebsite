@@ -85,6 +85,6 @@ Instructions for any AI agent working on this project. Read this file fully befo
 - Making claims without sources
 
 **Working limits**
-- Only provide code; **don't add it to a project yourself**. The project owner copies and integrates the code.
-- Don't delete, overwrite or restructure existing files unless asked. Show the changes instead.
+- You may add code directly to the project. Work on a separate branch, and only push or merge to `main` when the project owner says so.
+- Don't delete or restructure existing files unless asked.
 - Keep answers focused on this project and on the requested task.

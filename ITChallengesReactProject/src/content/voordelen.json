@@ -1,0 +1,59 @@
+{
+  "metaTitle": "Voordelen | NeuroWerk",
+  "metaDescription": "Welke sterktes neurodivergente mensen kunnen meebrengen in hun werk, en wat onderzoek daarover zegt.",
+  "heading": "Voordelen",
+  "intro": "Een brein dat anders werkt, kan ook sterktes meebrengen. Die verdienen meer aandacht bij het solliciteren.",
+  "note": {
+    "title": "Goed om te weten",
+    "text": "Er is minder onderzoek naar sterktes dan naar moeilijkheden, en het steunt vaak op een klein aantal bronnen. Zie deze lijsten dus als mogelijkheden. Niet iedereen heeft elke sterkte.",
+    "sources": ["doyle2020"]
+  },
+  "sections": [
+    {
+      "heading": "Sterk in bepaalde dingen",
+      "intro": "Veel neurodivergente mensen hebben een zogenaamd 'spiky profile'. Ze zijn heel sterk op bepaalde domeinen en hebben het moeilijker op andere.",
+      "sources": ["gent2024", "doyle2020"],
+      "items": []
+    },
+    {
+      "heading": "Sterktes die vaak genoemd worden",
+      "items": [
+        {
+          "title": "ADHD",
+          "list": ["Creatief denken", "Visueel en ruimtelijk redeneren", "Hyperfocus", "Passie en durf"],
+          "sources": ["doyle2020"]
+        },
+        {
+          "title": "Autisme",
+          "list": ["Een sterk geheugen", "Specialistische vaardigheden", "Innoverend denken", "Oog voor detail", "Patronen herkennen"],
+          "sources": ["doyle2020", "nd-autisme"]
+        },
+        {
+          "title": "Dyslexie",
+          "list": ["Ondernemerszin", "Creativiteit", "Visueel redeneren", "Praktische vaardigheden", "Verhalen vertellen"],
+          "sources": ["doyle2020"]
+        },
+        {
+          "title": "Dyspraxie (DCD)",
+          "text": "Het overzichtsartikel noemt hier maar één sterkte: je begrijpt gesproken en geschreven taal goed. Over sterktes bij dyspraxie vonden we dus weinig.",
+          "sources": ["doyle2020"]
+        }
+      ]
+    },
+    {
+      "heading": "Wat een team eraan heeft",
+      "items": [
+        {
+          "title": "Andere oplossingen",
+          "text": "Anders denken kan tot creatieve oplossingen leiden. Een team kan taken verdelen volgens ieders sterktes en zo zwakkere punten opvangen.",
+          "sources": ["gent2024"]
+        },
+        {
+          "title": "Psychologische veiligheid telt",
+          "text": "Stad Gent haalt onderzoek aan waarbij neurodiverse teams beter presteren dan homogene teams, als er psychologische veiligheid is.",
+          "sources": ["gent2024"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "metaTitle": "NeuroWerk: neurodiversiteit en werk zoeken",
+  "metaDescription": "Duidelijke info over de voordelen en uitdagingen van neurodiversiteit bij het zoeken naar werk, met tips voor werkzoekenden en werkgevers.",
+  "heading": "Neurodiversiteit en werk zoeken",
+  "intro": "Duidelijke info over sterktes, drempels en wat kan helpen. Voor werkzoekenden, werkgevers en iedereen die hen steunt.",
+  "explainer": {
+    "heading": "Wat is neurodiversiteit?",
+    "paragraphs": [
+      {
+        "text": "Neurodiversiteit betekent dat mensen de wereld op verschillende manieren beleven. Neurodivergent wil zeggen dat je brein anders werkt dan wat als de norm geldt. Denk aan ADHD, autisme, dyslexie of dyspraxie.",
+        "sources": ["gent2024", "doyle2020"]
+      },
+      {
+        "text": "Volgens een ruwe schatting gaat het om 15 tot 20% van de mensen.",
+        "sources": ["doyle2020"]
+      },
+      {
+        "text": "Elke persoon is anders. Niet alles op deze site zal dus voor jou gelden.",
+        "sources": []
+      }
+    ]
+  },
+  "cardsHeading": "Waar wil je beginnen?",
+  "cards": [
+    {
+      "to": "/voordelen",
+      "title": "Voordelen",
+      "text": "Welke sterktes neurodivergente mensen kunnen meebrengen, en hoe zeker dat is."
+    },
+    {
+      "to": "/uitdagingen",
+      "title": "Uitdagingen",
+      "text": "Welke drempels je kunt tegenkomen tijdens het solliciteren en op het werk."
+    },
+    {
+      "to": "/tips-werkzoekenden",
+      "title": "Tips voor werkzoekenden",
+      "text": "Je voorbereiden, beslissen wat je vertelt en aanpassingen vragen."
+    },
+    {
+      "to": "/tips-werkgevers",
+      "title": "Tips voor werkgevers",
+      "text": "Inclusief aanwerven, redelijke aanpassingen en steun in Vlaanderen."
+    },
+    {
+      "to": "/bronnen",
+      "title": "Bronnen en over deze site",
+      "text": "Waar de info vandaan komt en wat deze site wel en niet is."
+    }
+  ]
+}
